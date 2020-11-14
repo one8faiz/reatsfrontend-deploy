@@ -1,0 +1,16 @@
+  .home__section {
+    display: flex;
+    padding: 30px;
+  }
+.header{
+  padding: 30px;
+  height: 800px;
+  font-family: fantasy;
+  background-image: url("https://wallpaperaccess.com/full/222675.jpg");
+}
+  .home__search{
+    width: 60%;
+    padding: 30px;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
