@@ -1,6 +1,11 @@
+
 import React from "react";
 import "./Home.css";
 import Card from "./Card";
+import Button from "@material-ui/core/Button";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import TextField from "@material-ui/core/TextField";
+import Search from "./Search";
 import SearchBar from "material-ui-search-bar";
 import SearchPage from  "./SearchPage";
 import Typography from "@material-ui/core/Typography";
@@ -11,7 +16,24 @@ function Home() {
     <div className="home">
     <div className="header">
       <div className="home__search">
-      <SearchBar onChange={SearchPage}/>
+      <Grid container spacing={2}>
+            <Grid item xs={12} sm={10}>
+            <TextField
+                variant="outlined"
+                fullWidth
+                id="Search"
+                label="Search"
+                name="Search"
+                autoComplete="search"
+              />
+              </Grid>
+              <Grid item xs={12} sm={1} md={2}>
+              <Button classname="buttonsearch" variant="contained" fullheight color="primary" href="/SearchPage">
+                  Search
+                </Button>
+              </Grid>
+              </Grid>
+
       </div>
       </div>
       <div className="home__section">
