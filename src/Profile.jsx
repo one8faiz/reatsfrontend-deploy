@@ -104,10 +104,18 @@ export default function Profile() {
         </Typography>
         <div className="home_section"> 
         <ProfileCard
-src="https://media.nomadicmatt.com/2018/apartment.jpg"
-title="1 Bedroom apartment"
-description="Superhost with great amenities and a fabolous shopping complex nearby"
-price="AED70/night"
+src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+Name="Mr. John Smith"
+Type="Investor"
+Id="1532564"
+Email="randomme@gmail.com"
+PhoneNumber="+97125315231"
+Gender = "Male"
+City="DUbia"
+Country="United Arab Emirates"
+EmiratesID="1254321"
+Passport="1478as41"
+/>
 Name="Mr. John Smith"
 Type="Investor"
 Id="1532564"
