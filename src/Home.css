@@ -9,8 +9,14 @@
   background-image: url("https://wallpaperaccess.com/full/222675.jpg");
 }
   .home__search{
-    width: 60%;
-    padding: 30px;
-    margin-left: 20%;
+    width: 40%;
+    padding: 20px;
+    margin-left: 30%;
     margin-top: 10%;
+    background: white;
+    border-radius: 20px;
+  }
+  .buttonsearch:hover{
+      background-color: white;
+      color: #FFF;
   }
