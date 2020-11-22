@@ -9,7 +9,9 @@ import Home from "./Home";
 import About from "./About";
 import Login from "./Login";
 import Contact from "./Contact"
+import Profile from "./Profile";
 
+export default function App() {
 export default function App() {
   return (
     <div className="App">
@@ -23,6 +25,7 @@ export default function App() {
           <Route path="/SearchPage" exact component={() => <SearchPage/>} />
           <Route path="/ListProperty" exact component={() => <ListProperty/>} />
           <Route path="/Contact" exact component={() => <Contact/>} />
+             <Route path="/Profile" exact component={() => <Profile/>} />
         </Switch>
         <Footer/>
       </Router>
